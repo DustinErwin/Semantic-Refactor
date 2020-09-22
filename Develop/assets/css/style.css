@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,20 +8,20 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1em;
+}
+
 .header {
-    padding: 20px;
+    padding: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div {
@@ -29,21 +29,23 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 }
+
+.header h1 {
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -65,26 +67,30 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.info{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    border: blue 1px solid;
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
     float: right;
+    clear: left;
+    margin-left: .5%;
+    padding: 20px;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
+    max-width: 180px;
+    min-width: 150px;
 }
 
 .benefits h3 {
+    font-size: 1.5em;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -92,8 +98,18 @@ p {
 
 .benefits img {
     display: block;
-    margin: 10px auto;
+    margin: 1% auto;
+    width: 50%;
+    min-width: 80px;
     max-width: 150px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 2%;
+    border: solid 1px blue;
+    max-width: 866px;
 }
 
 .content div{
@@ -101,18 +117,21 @@ p {
     color: #ffffff;  
     background-color: #0072bb;
     margin-bottom: 20px;
+    margin-right: .5%;
     padding: 50px;
-    height: 300px;
+    width: 100%;
+    height: 30%;
 }
 
 .content img {
-    max-height: 200px;
+   width: 25%;
+    max-width: 150px;
 }
 
 
 .content h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 2em;
 }
 
 .footer {
