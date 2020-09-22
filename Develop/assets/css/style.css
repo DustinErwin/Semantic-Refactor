@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: grey;
+}
+
 p {
     font-size: 1em;
 }
@@ -71,7 +75,6 @@ p {
     margin: 0 auto;
     width: 90%;
     max-width: 1000px;
-    border: blue 1px solid;
 }
 
 .benefits {
@@ -108,7 +111,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 2%;
-    border: solid 1px blue;
     max-width: 866px;
 }
 
