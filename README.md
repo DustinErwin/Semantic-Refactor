@@ -2,4 +2,4 @@
 
 A refactor to showcase semantic HTML.
 
-![See the site live!](/Develop/Semantic-Refactor/)
+![See the site live!](https://dustinerwin.github.io/Develop/Semantic-Refactor/.)
